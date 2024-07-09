@@ -1,5 +1,6 @@
 .header {
     padding: 30px 15px;
+    background-color: black;
 }
 
 .header .logo {
@@ -38,7 +39,7 @@
 }
 
 .header nav ul li a:hover{
-    background-color: var(--cor-primaria);;
+    background-color: #3a04af;
     color: var(--cor-branca);
 }
 
@@ -129,8 +130,10 @@
 
    .header nav ul {
         display: none;        
-        background-color: var(--cor-fundo-escuro);         
-        padding: 20px;       
+        background-color: #78679D;         
+        padding: 20px;   
+        border-radius: 5px;  
+        
     }
     
     .header nav li a {

@@ -9,7 +9,7 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    background: linear-gradient(to bottom right, #0c0622, #7e769c) ;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
@@ -39,9 +39,12 @@ html {
     font-size: 1.8rem;
     text-align: center;
     color: var(--cor-branca);
+    background-color: rgb(11, 3, 19);
+    opacity: 0.8;
     margin: 0 4px;
-    border-radius: 50%;
+    border-radius: 5px;
     transition: all 0.3s ease;
+    
   }
   
   .redes-sociais a i {
@@ -49,15 +52,23 @@ html {
   }
   
   .redes-sociais a:hover {
-    color: var(--cor-primaria);
+    color: #3a04af;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(238, 239, 246);
+    line-height: 50px;
+    font-size: 2.0rem;
+    opacity: 1;
+    box-shadow: 8px 8px 5px #514074, -2px -2px 3px black;
   }
-  
+
+
   .outer-shadow {
-    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+    box-shadow: 3px 3px 2px #88799d, -3px -3px 3px #cbc4de;
   }
   
   .inner-shadow {
-    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+    box-shadow: inset 3px 3px 3px #04091d, inset -3px -3px 3px #231a1a;
   }
 
   .section{
@@ -82,10 +93,11 @@ html {
     padding: 10px 20px;
     border-radius: 20px;
     transition: all .3s ease;
-    background-color: var(--cor-primaria);
+    background-color: #1d1830;
   }
   
   .botao:hover {
-    background-color: var(--cor-secundaria);
+    background-color: #3a04af;
     color: var(--cor-branca);
+    
   }

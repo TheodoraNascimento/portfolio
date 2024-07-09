@@ -3,7 +3,7 @@
     text-align: center;    
     display: flex;
     justify-content: center;    
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
 }
 
@@ -31,7 +31,7 @@
     font-size: var(--fonte-extra-grande);
     font-weight: 500;
     margin-bottom: 20px;
-    color: var(--cor-primaria);      
+    color: #3bb1b1;      
 }
 
 .habilidades .container-habilidades .informacoes p {

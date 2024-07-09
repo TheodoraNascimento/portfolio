@@ -1,18 +1,21 @@
 /* SOBRE MIM */
-.sobre-mim .imagem-sobre-mim {    
-    max-width: 40%;
+.sobre-mim .img-about-me{    
+    max-width: 50%;
     padding: 0 15px;
+
 }
 
-.sobre-mim .imagem-sobre-mim .img-box {
-    padding: 15px;
-    border-radius: 5px;
-    text-align: center;
+.sobre-mim .img-box {
+    max-width: 250px;
+    margin: auto;
+    
+   
 }
 
-.sobre-mim .imagem-sobre-mim img {
-    border: 10px solid transparent;
-    border-radius: 5px;
+.sobre-mim .img-box img {
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px #201749, -2px -2px 1px #201749;
 }
 
 .sobre-mim .informacoes-sobre-mim {    
