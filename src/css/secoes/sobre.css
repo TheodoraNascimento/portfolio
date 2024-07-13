@@ -1,5 +1,5 @@
 /* SOBRE MIM */
-.sobre-mim .img-about-me{    
+/* .sobre-mim .img-about-me{    
     max-width: 50%;
     padding: 0 15px;
 
@@ -8,24 +8,30 @@
 .sobre-mim .img-box {
     max-width: 250px;
     margin: auto;
-    
-   
+} */
+
+
+.container.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.sobre-mim .img-box img {
+/* .sobre-mim .img-box img {
     border: 1px solid transparent;
     border-radius: 15px;
     box-shadow: 2px 2px 1px #201749, -2px -2px 1px #201749;
-}
+} */
 
 .sobre-mim .informacoes-sobre-mim {    
     max-width: 60%;
     padding: 0 25px;   
-    align-self: center; 
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
     margin-top: 50px;
+    text-align: center;
 }
 
 .sobre-mim .informacoes-sobre-mim p {
